@@ -34,7 +34,8 @@
 
 <main>
     <div class="container containerMain">
-        <div class="containerWerkstatt">
+    <!--     <div class="containerWerkstatt">
+
             <img src="img/Bild5.jpg" class="imgWerkstatt" alt="Workshop Image">
             <div class="text-overlay">
                 <h3>Conifere Werkstatt</h3>
@@ -46,13 +47,52 @@
 
             </div>
             
+        </div> -->
+
+
+        <div class="slider-container">
+            <div class="left-arrow arrow-btn" onclick="showSlide(currentSlide - 1)">&#8249;</div>
+            <div class="slider" ontouchstart="startSwipe(event)" ontouchmove="swipe(event)" ontouchend="endSwipe()">
+                <div class="slide">
+                    <img src="img/Bild5.jpg" class="sliderPhoto photoTwo" alt="Photo">
+                    <div class="text-overlay-werkstatt">
+                    <h3>Conifere Werkstatt</h3>
+                    <h4>Ohne Worte</h4>
+                    <h6>Begeben Sie sich einfach auf die Fotostrecke und gewinnen Sie einen ersten Eindruck über unsere Arbeitsweise.</h6>
+                </div>
+                </div>
+                <div class="slide">
+                    <img src="img/Bild4.jpg" class="sliderPhoto" alt="Photo">
+
+                </div>
+                <div class="slide">
+                    <img src="img/Bild2.jpg" class="sliderPhoto" alt="Photo">
+
+                </div>
+                <div class="slide">
+                    <img src="img/Bild.jpg" class="sliderPhoto photoOne" alt="Photo">
+
+                </div>
+                <div class="slide">
+                    <img src="img/Bild_02.jpg" class="sliderPhoto photoOne" alt="Photo">
+                </div>
+                <div class="slide">
+                    <img src="img/Bild_15.jpg" class="sliderPhoto photoTwo" alt="Photo">
+
+                </div>
+                <div class="slide">
+                    <img src="img/Bild5.jpg" class="sliderPhoto" alt="Photo">
+
+                </div>
+            </div>
+            <div class="right-arrow arrow-btn" onclick="showSlide(currentSlide + 1)">&#8250;</div>
         </div>
         
 </div>
 </main>
 
-<footer class="container">
-<h2 id="footerImpressum">Impressum</h2>
+<footer class="container footerContainer">
+    <h2>Impressum</h2>
 <p>
 
     Verantwortlich für den Inhalt: Conifere GmbH Musterstraße 123 12345 Beispielstadt<br>
